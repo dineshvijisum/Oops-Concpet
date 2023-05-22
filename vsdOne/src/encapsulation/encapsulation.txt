@@ -1,0 +1,2 @@
+Encapsulation:
+Process of binding data and methods together into a single unit.

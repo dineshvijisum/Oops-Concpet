@@ -1,0 +1,40 @@
+Abstraction:
+Hiding the implementation details.
+
+How can we achieve abstraction?
+1.Abstract Class (0 to 100% abstraction)
+2.Interface (100% Abstraction) - completely we don't know what we do then we can choose interface
+
+Abstract Class:
+1.If a class is having an unimplemented method then the method should be declared abstract.
+2.If a class is having one abstract method then it should be declared abstract
+3.It may or may not have implementation methods
+4.A class can be declared abstract even if doesn't have abstract methods
+5.Can we create object for abstract class? 
+  can't able to create
+6.If a child does not implement all the abstract methods of a parent class, then the child
+  class must need to be declared abstract as well
+  
+Interface:
+What is interface?
+Like class but it is not class
+
+Why?
+An interface have methods and variables just like the class.
+But the variables are public, static, final by default.
+the methods declared in interface are abstract by default.
+methods are public and abstract by default.
+
+Why interface is needed?
+To achieve abstraction and multiple inheritance.
+ 
+ How a class can use another interface?
+ By using Implements keyword.
+ 
+ How a Interface can use another interface?
+ By using Extends keyword.
+ 
+ Tag or marker interface:
+ An empty interface is known as tag or marker interface.
+ Ex: Serializable, cloneable
+ 

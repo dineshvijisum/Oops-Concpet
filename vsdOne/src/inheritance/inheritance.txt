@@ -1,0 +1,26 @@
+Process of acquiring the properties(data + methods)
+
+the one which gives - Parent class
+the one which takes - child class
+
+NOTE:
+A child can be a parent of another class
+A parent can be a child of another class
+
+How to inherit?
+Using Extends keyword
+
+inheritance=IS-a relationship
+
+Types of inheritance:
+1.Single : A->B
+2.Multi level : A-> B -> C
+3.Multiple(Not supported in java)
+   A+B->C (using Interface we can overcome)
+4.Heirarchial : A->B ,A->C, A->D
+
+Access Modifiers:
+1.default-When no access modifier is specified
+2.Private- Only within the class in which they are declared
+3.Protected- Within same package/sub classes in different package
+4.public - from everywhere in the program

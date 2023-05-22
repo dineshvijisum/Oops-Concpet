@@ -1,0 +1,27 @@
+What is Polymorphism? -- many porms
+is the capability of a method (function) to do different things based on the 
+object that it is acting upon.
+
+Types:
+1.Static/Compile/Early binding (overloading)
+2.Dynamic/RunTime/Late binding (Overriding)
+
+OverLoading: Method name should be same
+1.If there is any change (change in data type, or change in order of passing)
+in the parameter passed to a method, then its overloading.
+2.Happens at compile-time
+3.Done in the same class
+
+Overriding : Method name should be same
+1.No change in anything
+2.Happens at runtime
+3.Done in the parent /child relationship
+
+
+Aspects                            Overloading                                      Overriding
+Name of the method                  must be same                                    Must be same
+Argument types(Parameter Pass)      must be diff.(or change in passing order)       must be diff.(or change in passing order) 
+Return types                       Can be anything                                  must be same or Covarient return types
+Access modifiers                   Can be anything                                  It should be equal modifier or greater modifier
+Throwing Exception                 No restrictions,can be anything                  Parent should throw the same or greater exception
+Private methods                    Can be overloaded                                Cannot be override
